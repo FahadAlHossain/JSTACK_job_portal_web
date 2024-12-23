@@ -29,7 +29,7 @@ h3 {
   font-weight: 500;
 }
 
-#w-btn{
+#w-btn {
   margin-left: 40px;
   background-color: #fff;
   color: #1f4a40;
@@ -39,6 +39,15 @@ h3 {
   font-weight: 500;
   box-shadow: none;
   border: none;
+}
+
+#g-btn {
+  text-decoration: none;
+  background-color: #51a995;
+  color: #fff;
+  padding: 9px 30px;
+  border-radius: 20px;
+  cursor: pointer;
 }
 
 .sec-space {
@@ -54,29 +63,34 @@ h3 {
 
 /* Navbar */
 
-header{
+header {
   background-color: #1f4a40;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 999;
+  width: 100%;
 }
 
-#navbar{
+#navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 80px;
 }
 
-#navbar .logo{
+#navbar .logo {
   width: 120px;
 }
 
-#menu{
+#menu {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   list-style: none;
 }
 
-#menu li a{
+#menu li a {
   color: #fff;
   text-decoration: none;
   margin-left: 40px;
@@ -84,11 +98,61 @@ header{
   font-weight: 500;
 }
 
-#bar{
+#bar {
   color: #fff;
   display: none;
 }
 
+/* Hero */
+
+.hero {
+  background-color: #1f4a40;
+}
+
+.hero-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+.h-left {
+  width: 45%;
+  color: #fff;
+}
+
+.h-left p {
+  padding: 1.5rem 0;
+}
+
+.search {
+  position: relative;
+}
+
+.search input {
+  width: 100%;
+  height: 4rem;
+  border-radius: 35px;
+  padding: 0 20px;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+}
+
+.search a {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+}
+
+.h-right {
+  width: 50%;
+}
+
+.h-right img {
+  width: 100%;
+  object-fit: cover;
+}
 /* responsive design */
 
 /* mobile devices */
@@ -98,9 +162,9 @@ header{
     background-color: #1f4a40;
     color: #fff;
     margin: 20px 0 0 50px;
-}
+  }
 
-  #menu{
+  #menu {
     background-color: #fff;
     display: block;
     width: 280px;
@@ -115,7 +179,7 @@ header{
     transition: all 0.3s ease;
   }
 
-  #menu.active{
+  #menu.active {
     right: 10px;
     opacity: 1;
   }
@@ -128,11 +192,25 @@ header{
     color: #1f4a40;
   }
 
-  #bar{
+  #bar {
     display: block;
     font-size: 1.7rem;
     cursor: pointer;
   }
 
+  /* Hero */
 
+  .hero-box {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: start;
+    height: auto;
+    padding: 8rem 0;
+  }
+  .h-left {
+    width: 100%;
+}
+.h-right {
+  display: none;
+}
 }
