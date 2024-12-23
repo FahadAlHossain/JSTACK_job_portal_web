@@ -153,6 +153,26 @@ header {
   width: 100%;
   object-fit: cover;
 }
+
+/* Features */
+
+.features .fe-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.features .fe-box img{
+  width: 50px;
+  margin-top: 3rem;
+}
+
+.features .fe-box div{
+  width: 200px;
+}
+
 /* responsive design */
 
 /* mobile devices */
@@ -209,8 +229,14 @@ header {
   }
   .h-left {
     width: 100%;
-}
-.h-right {
-  display: none;
-}
+  }
+  .h-right {
+    display: none;
+  }
+
+  /* Features */
+
+  .features .fe-box div{
+    width: 40%;
+  }
 }
