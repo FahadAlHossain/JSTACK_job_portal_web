@@ -23,6 +23,7 @@ h2 {
   font-weight: 600;
   line-height: 60px;
 }
+
 h3 {
   font-size: 1.2rem;
   padding-bottom: 1rem;
@@ -156,21 +157,73 @@ header {
 
 /* Features */
 
-.features .fe-box{
+.features .fe-box {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-
 }
 
-.features .fe-box img{
+.features .fe-box img {
   width: 50px;
   margin-top: 3rem;
 }
 
-.features .fe-box div{
+.features .fe-box div {
   width: 200px;
+}
+
+/* Jobs */
+
+.jobs .job-id {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.jobs .job-id li {
+  padding: 20px 40px;
+  color: #000;
+  cursor: pointer;
+}
+
+.jobs .job-id li.active {
+  background: #51a995;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.jobs .jList {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 1px solid #ccc;
+  align-items: center;
+  justify-content: start;
+  cursor: pointer;
+  color: #000;
+  padding: 2rem 2rem;
+  transition: 0.3s;
+}
+
+.jobs .jList.delete {
+  display: none;
+}
+
+.jobs .jList:hover {
+  background: #ecf1ee;
+}
+
+.jobs .jList img {
+  width: 40px;
+}
+
+.jobs .jList h3 {
+  padding-bottom: 0;
 }
 
 /* responsive design */
@@ -236,7 +289,39 @@ header {
 
   /* Features */
 
-  .features .fe-box div{
+  .features .fe-box div {
     width: 40%;
+  }
+
+  /* Jobs */
+
+  .jobs .job-id {
+    position: relative;
+    width: 100%;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .jobs .job-id li {
+    padding: 20px 30px;
+    text-wrap: nowrap;
+  }
+
+  .jobs-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+
+  .jobs .jList {
+    width: 48%;
+    margin-top: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 15px;
+    padding: 2rem 1rem;
+    text-align: center;
+    justify-items: center;
   }
 }
