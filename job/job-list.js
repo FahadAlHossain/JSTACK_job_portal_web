@@ -1,44 +1,98 @@
 const jCategory = [
-    {
-        index: 0,
-        image: "../images/google.png",
-        title: "Web Developer",
-        salary: "$900 - 1200/m",
-        type: "Full Time"
+  {
+    index: 0,
+    image: "../images/google.png",
+    title: "Web Developer",
+    salary: "$900 - 1200/m",
+    type: "Full Time",
+    companyName: "Google",
+    location: "USA",
+    vacancy: "01",
+    hours: "50h / week",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio tenetur labore perferendis? Debitis ipsum accusantium dignissimos dolore perspiciatis consectetur, consequuntur magnam enim neque necessitatibus repudiandae distinctio facere quos iure quae iste, ducimus ab, hic minima optio minus rerum inventore deserunt! Beatae eius provident culpa voluptas aliquid in non. Explicabo corporis voluptate neque magnam tenetur omnis. Iure recusandae architecto laudantium, nulla atque quia consequuntur dolore nostrum facilis nam, at excepturi reiciendis?",
+    workplace: "Work from home",
+    education: "Bachelor degree in any Computer Science course",
+    experience: "2 to 5 year(s)",
     },
-    {
-        index: 1,
-        image: "../images/uber.png",
-        title: "Freelancer",
-        salary: "$900 - 1200/m",
-        type: "Freelancer"
-    },
-    {
-        index: 2,
-        image: "../images/linkedin.png",
-        title: "Business Associate",
-        salary: "$900 - 1200/m",
-        type: "Part Time"
-    },
-    {
-        index: 3,
-        image: "../images/facebook.png",
-        title: "Digital Marketing",
-        salary: "$900 - 1200/m",
-        type: "Full Time"
-    },
-    {
-        index: 4,
-        image: "../images/yahoo.png",
-        title: "User Experience",
-        salary: "$900 - 1200/m",
-        type: "Part Time"
-    },
-    {
-        index: 0,
-        image: "../images/wordpress.png",
-        title: "WordPress Developer",
-        salary: "$900 - 1200/m",
-        type: "Freelancer"
-    },
-]
+  {
+    index: 1,
+    image: "../images/uber.png",
+    title: "Freelancer",
+    salary: "$900 - 1200/m",
+    type: "Freelancer",
+    companyName: "Uber",
+    location: "UK",
+    vacancy: "02",
+    hours: "40h / week",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio tenetur labore perferendis? Debitis ipsum accusantium dignissimos dolore perspiciatis consectetur, consequuntur magnam enim neque necessitatibus repudiandae distinctio facere quos iure quae iste, ducimus ab, hic minima optio minus rerum inventore deserunt! Beatae eius provident culpa voluptas aliquid in non. Explicabo corporis voluptate neque magnam tenetur omnis. Iure recusandae architecto laudantium, nulla atque quia consequuntur dolore nostrum facilis nam, at excepturi reiciendis?",
+    workplace: "Work from home",
+    education: "Bachelor degree in any Computer Science course",
+    experience: "2 to 5 year(s)",
+  },
+  {
+    index: 2,
+    image: "../images/linkedin.png",
+    title: "Business Associate",
+    salary: "$900 - 1200/m",
+    type: "Part Time",
+    companyName: "LinkedIn",
+    location: "Florida",
+    vacancy: "04",
+    hours: "50h / week",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio tenetur labore perferendis? Debitis ipsum accusantium dignissimos dolore perspiciatis consectetur, consequuntur magnam enim neque necessitatibus repudiandae distinctio facere quos iure quae iste, ducimus ab, hic minima optio minus rerum inventore deserunt! Beatae eius provident culpa voluptas aliquid in non. Explicabo corporis voluptate neque magnam tenetur omnis. Iure recusandae architecto laudantium, nulla atque quia consequuntur dolore nostrum facilis nam, at excepturi reiciendis?",
+    workplace: "Work from home",
+    education: "Bachelor degree in any Computer Science course",
+    experience: "2 to 5 year(s)",
+  },
+  {
+    index: 3,
+    image: "../images/facebook.png",
+    title: "Digital Marketing",
+    salary: "$900 - 1200/m",
+    type: "Full Time",
+    companyName: "Facebook",
+    location: "USA",
+    vacancy: "03",
+    hours: "50h / week",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio tenetur labore perferendis? Debitis ipsum accusantium dignissimos dolore perspiciatis consectetur, consequuntur magnam enim neque necessitatibus repudiandae distinctio facere quos iure quae iste, ducimus ab, hic minima optio minus rerum inventore deserunt! Beatae eius provident culpa voluptas aliquid in non. Explicabo corporis voluptate neque magnam tenetur omnis. Iure recusandae architecto laudantium, nulla atque quia consequuntur dolore nostrum facilis nam, at excepturi reiciendis?",
+    workplace: "Work from home",
+    education: "Bachelor degree in any Computer Science course",
+    experience: "2 to 5 year(s)",
+  },
+  {
+    index: 4,
+    image: "../images/yahoo.png",
+    title: "User Experience",
+    salary: "$900 - 1200/m",
+    type: "Part Time",
+    companyName: "Yahoo",
+    location: "USA",
+    vacancy: "01",
+    hours: "50h / week",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio tenetur labore perferendis? Debitis ipsum accusantium dignissimos dolore perspiciatis consectetur, consequuntur magnam enim neque necessitatibus repudiandae distinctio facere quos iure quae iste, ducimus ab, hic minima optio minus rerum inventore deserunt! Beatae eius provident culpa voluptas aliquid in non. Explicabo corporis voluptate neque magnam tenetur omnis. Iure recusandae architecto laudantium, nulla atque quia consequuntur dolore nostrum facilis nam, at excepturi reiciendis?",
+    workplace: "Work from home",
+    education: "Bachelor degree in any Computer Science course",
+    experience: "2 to 5 year(s)",
+  },
+  {
+    index: 5,
+    image: "../images/wordpress.png",
+    title: "WordPress Developer",
+    salary: "$900 - 1200/m",
+    type: "Freelancer",
+    companyName: "WordPress",
+    location: "USA",
+    vacancy: "08",
+    hours: "50h / week",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio tenetur labore perferendis? Debitis ipsum accusantium dignissimos dolore perspiciatis consectetur, consequuntur magnam enim neque necessitatibus repudiandae distinctio facere quos iure quae iste, ducimus ab, hic minima optio minus rerum inventore deserunt! Beatae eius provident culpa voluptas aliquid in non. Explicabo corporis voluptate neque magnam tenetur omnis. Iure recusandae architecto laudantium, nulla atque quia consequuntur dolore nostrum facilis nam, at excepturi reiciendis?",
+    workplace: "Work from home",
+    education: "Bachelor degree in any Computer Science course",
+    experience: "2 to 5 year(s)",
+  },
+];
