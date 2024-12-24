@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
         <a href="#" id="g-btn">Apply Now</a>
       </div>
-      <div class="features sec-space obj-width">
+      <div class="features obj-width">
         <div class="fe-box">
           <div>
             <img src="../images/vacancy.png" alt="" />
